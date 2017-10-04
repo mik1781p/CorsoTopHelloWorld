@@ -24,7 +24,7 @@
             <acierno_helloworld>
                 <use>standard</use>
                 <args>
-                    <modules>Acierno_Helloworld</modules>
+                    <module>Acierno_Helloworld</module>
                     <frontName>hello</frontName>
                 </args>
             </acierno_helloworld>
