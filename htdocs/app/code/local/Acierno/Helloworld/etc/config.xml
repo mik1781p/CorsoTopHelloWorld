@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<config>
+    <modules>
+        <Acierno_Helloworld>
+            <version> 0.1.0</version>
+        </Acierno_Helloworld>
+    </modules>
+
+    <global>
+        <blocks>
+            <acierno_helloworld>
+                <class>Acierno_Helloworld_Block</class>
+            </acierno_helloworld>
+        </blocks>
+        <helpers>
+            <acierno_helloworld>
+                <class>Acierno_Helloworld_Helper</class>
+            </acierno_helloworld>
+        </helpers>
+    </global>
+    <frontend>
+        <routers>
+            <acierno_helloworld>
+                <use>standard</use>
+                <args>
+                    <modules>Acierno_Helloworld</modules>
+                    <frontName>hello</frontName>
+                </args>
+            </acierno_helloworld>
+        </routers>
+    </frontend>
+    <default>
+        <acierno_helloworld>
+            <configuration>
+                <enabled>1</enabled>
+                <message>Test Message from config.xml</message>
+            </configuration>
+        </acierno_helloworld>
+    </default>
+</config>
