@@ -29,6 +29,13 @@
                 </args>
             </acierno_helloworld>
         </routers>
+        <layout>
+            <updates>
+                <acierno_helloworld>
+                    <file>acierno_helloworld.xml</file>
+                </acierno_helloworld>
+            </updates>
+        </layout>
     </frontend>
     <default>
         <acierno_helloworld>

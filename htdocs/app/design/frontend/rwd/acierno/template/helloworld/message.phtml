@@ -1,0 +1,14 @@
+<div class="page-title">
+    <h1> <?php echo $this->__('Hello World'); ?> </h1>
+</div>
+<div class="content" align="center">
+
+    <?php  if($this->isEnabled()) : ?>
+    <p> <?php echo $this->__('Welcome to the hello world Module!'); ?> </p>
+        <?php if($this->getMessage()) : ?>
+            <p><?php echo $this->getMessage(); ?> </p>
+        <?php endif ; ?>
+    <?php endif ; ?>
+
+    <image src="http://www.catgifpage.com/gifs/325.gif"></image>
+ </div>

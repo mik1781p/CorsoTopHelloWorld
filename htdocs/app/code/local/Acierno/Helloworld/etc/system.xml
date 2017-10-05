@@ -27,7 +27,6 @@
                             <source_model>adminhtml/system_config_source_yesno</source_model>
                             <tooltip>Is this module enabled?</tooltip>
                         </enabled>
-
                         <message translate="label">
                             <label>Custom Message</label>
                             <sort_order>20</sort_order>

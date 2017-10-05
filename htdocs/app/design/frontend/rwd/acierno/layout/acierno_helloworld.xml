@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<layout>
+    <acierno_helloworld_index_index>
+        <reference name="root">
+            <action method="setTemplate">
+                <template>page/2columns-right.phtml</template>
+            </action>
+        </reference>
+        <reference name="content">
+            <block type="acierno_helloworld/helloworld" name="helloworld.content" template="helloworld/message.phtml">
+            </block>
+        </reference>
+    </acierno_helloworld_index_index>
+</layout>

@@ -4,7 +4,6 @@
  * Hello World
  */
 
-
 /**
  * Hello World
  *
@@ -13,7 +12,6 @@
  * @package Frontend
  * @version 0.1.0
  */
-
 class Acierno_Helloworld_Helper_Data extends Mage_Core_Helper_Abstract
 {
 
@@ -39,6 +37,7 @@ class Acierno_Helloworld_Helper_Data extends Mage_Core_Helper_Abstract
     {
         return $this->getConfig("configuration/enabled");
     }
-}
 
+
+}
 

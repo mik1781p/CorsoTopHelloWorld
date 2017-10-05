@@ -3,7 +3,7 @@
 <config>
     <modules>
         <Acierno_Helloworld>
-            <active> true</active>
+            <active>true</active>
             <codePool>local</codePool>
         </Acierno_Helloworld>
     </modules>

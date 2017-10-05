@@ -4,7 +4,6 @@
  * Hello World
  */
 
-
 /**
  * Hello World
  *
@@ -13,12 +12,15 @@
  * @package Frontend
  * @version 0.1.0
  */
-
-
 class Acierno_Helloworld_IndexController extends Mage_Core_Controller_Front_Action
 {
 
     public function indexAction(){
-        echo "hello";
+        $this->loadLayout();
+
+        $this->renderLayout();
+       // echo "messaggio: ".Mage::helper('acierno_helloworld')->getConfig('configuration/message');
+
     }
+
 }
